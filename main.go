@@ -8,7 +8,7 @@ import (
 
 func main() {
 	vecty.SetTitle("Simple Login Page With Vecty")
-	vecty.AddStylesheet("/style.css")
+	vecty.AddStylesheet("test/style.css")
 	vecty.RenderBody(&mybody{})
 }
 
@@ -21,6 +21,9 @@ func (*mybody) Render() vecty.ComponentOrHTML {
 		elem.Div(
 			vecty.Markup(
 				vecty.Class("mform"),
+			),
+			elem.Heading1(
+				vecty.Text("Login"),
 			),
 			elem.Input(
 				vecty.Markup(
@@ -43,6 +46,7 @@ func (*mybody) Render() vecty.ComponentOrHTML {
 					vecty.Class("sbmt"),
 				),
 			),
+			elem.Break(),
 			elem.Span(
 				vecty.Markup(
 					vecty.Class("s1"),
