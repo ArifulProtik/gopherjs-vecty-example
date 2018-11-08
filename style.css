@@ -1,0 +1,30 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background:#3498db;
+  margin: 0 auto 0 auto;  
+  width:100%; 
+  text-align:center;
+  margin: 20px 0px 20px 0px;   
+}
+.mform{
+  background:white;
+  width:100%;
+  max-width:300px;
+  border-radius:6px;
+  margin: 0 auto 0 auto;
+  padding-left:8px;
+  padding-right: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: #2980b9 4px solid; 
+}
+.inpt{
+  width:100%;
+  padding: 8px;
+  margin-top: 3px;
+  background-color: #E8E8E8;
+  outline: 0px;
+  border: 0px;
+  border-radius: 6px;
+
+}
